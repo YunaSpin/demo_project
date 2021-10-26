@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="demo_project:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/demo_project_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="demo_project/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="demo_project" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../../mysql-connector-java-8.0.25/mysql-connector-java-8.0.25.jar" />
+          <element id="dir-copy" path="$PROJECT_DIR$" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../apache-tomcat-10.0.10/lib/servlet-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../json  jar包/commons-beanutils-1.7.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../json  jar包/commons-collections-3.2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../json  jar包/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../json  jar包/ezmorph-1.0.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../json  jar包/jackson-annotations-2.12.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../json  jar包/jackson-core-2.12.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../json  jar包/jackson-databind-2.12.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../json  jar包/json-20210307.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../json  jar包/commons-lang-2.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../json  jar包/commons-beanutils-1.7.0.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

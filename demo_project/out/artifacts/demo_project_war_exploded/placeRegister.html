@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function cliButton1(){
+        // alert("梦厅");
+        var form=document.forms[0];
+        form.action="MengTingRegisterServer";
+        form.submit();
+    }
+    function cliButton2() {
+        // alert("实验室");
+        var form=document.forms[0];
+        form.action="ShiYanShiRegisterServer";
+        form.submit();
+    }
+    function cliButton3() {
+        // alert("户外");
+        var form=document.forms[0];
+        form.action="HuWaiRegisterServer";
+        form.submit();
+    }
+</script>
+<form action="get">
+    <button name="梦厅" type="button" onclick = "cliButton1()" class="am-btn am-btn-success am-active">梦厅</button>
+    <button name="实验室" type="button" onclick="cliButton2()" class="am-btn am-btn-success am-active">实验室</button>
+    <button name="户外" type="button" onclick="cliButton3()" class="am-btn am-btn-success am-active">户外</button>
+</form>
+</body>
+</html>

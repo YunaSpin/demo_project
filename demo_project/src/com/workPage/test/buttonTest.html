@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  // function f() {
+  //   var arr = document.getElementsByName('button');
+  //
+  //   for(var i = 0;i<arr.length;i++){
+  //     arr[i].onclick = function(){
+  //       document.getElementById("test_p").innerText = "测试使用";
+  //     }
+  //   }
+  // }
+  window.onload = function(){
+    var arr = document.getElementsByTagName('button');
+    for(var i = 0;i<arr.length;i++){
+      arr[i].onclick = function(){
+        if (this.id == 'test_button1') {
+          document.getElementById("test_p").innerText = "测试使用";
+        }else{
+          document.getElementById("test_p").innerText = "测试不使用";
+        }
+      }
+    }
+  }
+</script>
+
+<div>
+  <button value="测试按钮" id="test_button1">测试按钮1</button>
+  <button value="测试按钮" id="test_button2">测试按钮2</button>
+  <p id="test_p">ceshi</p>
+</div>
+
+</body>
+</html>
